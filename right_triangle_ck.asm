@@ -2,7 +2,7 @@
 # Programmer: Scott Schoeller (sschoellerSTEM)
 #
 # Description: 
-# This is a MIPS32 asm program that checks for a right traingle
+# This is a MIPS32 asm program that checks for a right triangle
 # given three sides and a hypotenuse (uses a^2 + b^2 = c^2)
 ######################################################################################
 
