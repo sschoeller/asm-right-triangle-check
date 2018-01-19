@@ -9,9 +9,9 @@
         .data
         # NOTE: will need to use floating point numbers in calculations
         
-val_a:     .double 1.0 # place a default value here for a
-val_b:     .double 1.0 # place a default value here for b
-val_c:     .double 1.0 # place a defualt value here for the hypotenuse
+val_a:     .double 1.0  # placeholder value here for a
+val_b:     .double 1.0  # placeholder value here for b
+val_c:     .double 1.0  # placeholder value here for the hypotenuse
  
 prompt_ab: .asciiz "\nEnter a value for the side: "
 prompt_c:  .asciiz "\nEnter a value for the hypotenuse: "
@@ -104,5 +104,5 @@ is_not_right:
 	syscall
 
 end:	
-        li      $v0, 10   #return control to OS
+        li      $v0, 10   # return control to OS
         syscall   
